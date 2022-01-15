@@ -55,6 +55,7 @@ header {
     clear: both;
     overflow: hidden;
     padding-bottom: 50px;
+    margin-top: 80px;
 }
 
 #menu_toggoler {
@@ -69,6 +70,13 @@ header {
 
 input[type="checkbox"]:checked~.nav-bar ul a {
     color: coral;
+}
+
+.menu-bar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
 }
 
 nav {
@@ -151,6 +159,7 @@ nav .nav-bar ul li a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 60px;
+    clear: both;
 }
 
 .hero_left {
@@ -158,6 +167,7 @@ nav .nav-bar ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-left: -30px;
 }
 
 .hero_left h1 {
@@ -238,7 +248,7 @@ nav .nav-bar ul li a {
 
 .brand {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px 0;
     margin: 10px 0;
