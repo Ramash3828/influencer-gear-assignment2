@@ -246,6 +246,17 @@ nav .nav-bar ul li a {
 
 .brand img {
     width: 110px;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    cursor: pointer;
+}
+
+.brand img:hover {
+    filter: grayscale();
+    -webkit-filter: grayscale();
 }
 
 .product {
