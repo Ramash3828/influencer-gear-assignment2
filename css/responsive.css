@@ -1,4 +1,4 @@
-/* Extra small devices (phones, 600px and down) */
+/* Midium devices (815px and down) */
 
 @media (max-width: 815px) {
     .container {
@@ -6,7 +6,11 @@
     }
     .toggle-btn {
         display: block;
+        color: black;
         font-size: 30px;
+        position: relative;
+        top: 47px;
+        left: 40px;
     }
     .search {
         display: none;
@@ -21,27 +25,25 @@
         justify-content: start;
     }
     .logo {
-        margin: 0 auto;
+        margin-left: 25%;
     }
     nav .nav-bar ul {
         z-index: 6;
         position: absolute;
         top: 80px;
-        right: -50%;
-        min-width: 40%;
+        right: -60%;
+        width: 40%;
         height: 100vh;
         background: rgba(0, 0, 0, 0.3);
-        padding-top: 100px;
-        padding-left: 50px;
+    }
+    input[type="checkbox"]:checked~.nav-bar ul {
+        right: 0;
     }
     nav .nav-bar ul li a {
         color: #fff;
     }
     nav .nav-bar ul li {
         display: block;
-    }
-    input[type="checkbox"]:checked~.nav-bar ul {
-        right: 0;
     }
     /* Hero Area */
     .hero {
@@ -86,17 +88,17 @@
     }
 }
 
+
+/*Midium devices (min-width: 500px and down)  */
+
 @media (max-width: 500px) {
     .container {
         width: 95%;
         padding: 0 30px;
         margin: 0 auto;
     }
-    label {
-        top: 25px;
-    }
-    nav .nav-bar ul {
-        width: 45%;
+    .toggle-btn {
+        display: block;
     }
     nav .logo a {
         font-size: 16px;
@@ -135,9 +137,3 @@
         justify-content: space-between;
     }
 }
-
-
-/* Medium devices (landscape tablets, 768px and down) */
-
-
-/* @media only screen and (min-width: 768px) {} */

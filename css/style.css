@@ -57,14 +57,18 @@ header {
     padding-bottom: 50px;
 }
 
-label {
-    top: 28px;
-    position: absolute;
-}
-
-.toggle-btn,
 #menu_toggoler {
     display: none;
+}
+
+.toggle-btn {
+    display: none;
+    color: black;
+    pointer-events: visible;
+}
+
+input[type="checkbox"]:checked~.nav-bar ul a {
+    color: coral;
 }
 
 nav {
@@ -222,6 +226,7 @@ nav .nav-bar ul li a {
 ----------------------- */
 
 .brand-border {
+    clear: both;
     margin: 50px 0;
     border-width: 3px;
     border-style: solid;
@@ -358,13 +363,14 @@ nav .nav-bar ul li a {
 .contact-right h2 {
     color: #fff;
     text-transform: uppercase;
-    margin-bottom: 30px;
+    margin: 15px 0;
     letter-spacing: 5px;
 }
 
 form {
     width: 90%;
     max-width: 600px;
+    padding: 20px 0;
 }
 
 .group {
@@ -470,8 +476,6 @@ footer {
     font-size: 14px;
     line-height: 24px;
 }
-
-.p {}
 
 .social-icon a {
     display: inline-block;
