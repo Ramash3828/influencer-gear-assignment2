@@ -65,11 +65,12 @@
     }
     /* Product Area */
     .brand {
+        row-gap: 15px;
         padding: 0 30px;
     }
     .brand img {
         width: 110px;
-        margin-bottom: 30px;
+        margin: 0 30px;
     }
     .product_carts {
         display: grid;

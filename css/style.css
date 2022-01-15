@@ -241,6 +241,7 @@ nav .nav-bar ul li a {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 20px 0;
+    margin: 10px 0;
 }
 
 .brand img {
