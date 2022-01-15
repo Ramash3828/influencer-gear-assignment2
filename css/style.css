@@ -42,6 +42,12 @@ body {
         Menu Area
 ----------------------- */
 
+header {
+    clear: both;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
 label {
     top: 28px;
     position: absolute;
@@ -203,5 +209,134 @@ nav .nav-bar ul li a {
 
 
 /* ----------------------
-        XXXXX Area
+        Product Area
 ----------------------- */
+
+.product {
+    clear: both;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.section-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.product_carts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    grid-gap: 20px;
+    padding: 0 20px;
+}
+
+.cart {
+    width: 100%;
+    padding: 17px;
+    text-align: left;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.cart img {
+    width: 100%;
+    height: 256px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.cart_title {
+    display: block;
+    text-decoration: none;
+    color: #18191F;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.cart_price {
+    font-size: 24px;
+    opacity: .7;
+    margin-bottom: 15px;
+}
+
+.retings .star {
+    font: 16px;
+    color: #FB8200;
+    margin-bottom: 15px;
+}
+
+.retings span {
+    color: #5E6366;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+
+/* ----------------------
+        Contact Area
+----------------------- */
+
+
+/* ----------------------
+        Footer Area
+----------------------- */
+
+footer {
+    background-color: #0A0826;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.footer-text {
+    color: #fff;
+}
+
+.footer-heading {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 15px;
+}
+
+.footer-text p,
+.coppyright {
+    color: #D9DBE1;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.p {}
+
+.social-icon a {
+    display: inline-block;
+    color: #D9DBE1;
+    text-decoration: none;
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #22213C;
+    margin: 20px 10px 0;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+. {}
