@@ -234,6 +234,7 @@ nav .nav-bar ul li a {
 .brand {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 20px 0;
 }
 
@@ -327,6 +328,7 @@ nav .nav-bar ul li a {
 .contactUs-area {
     display: flex;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 .contact-left {
