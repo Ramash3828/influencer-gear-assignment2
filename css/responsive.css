@@ -61,6 +61,29 @@
     .hero_right {
         order: -1;
     }
+    /* Product Area */
+    .brand {
+        padding: 0 30px;
+    }
+    .brand img {
+        width: 110px;
+        margin-bottom: 30px;
+    }
+    .product_carts {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+    }
+    /* contact */
+    .contactUs-area {
+        flex-direction: column;
+        align-items: center;
+    }
+    form {
+        width: 90%;
+        /* max-width: 600px; */
+        padding: 20px 0;
+    }
 }
 
 @media (max-width: 500px) {
@@ -104,6 +127,12 @@
     }
     .hero_left {
         text-align: center;
+    }
+    /* Product */
+    .product_carts {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: space-between;
     }
 }
 
